@@ -21,9 +21,6 @@ angular.module('video-player')
       this.click = () => {
         console.log('test ')
       }
-    },
-    
-    click: function() {
-      
     }
+ 
   });

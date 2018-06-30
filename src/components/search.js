@@ -10,17 +10,15 @@ angular.module('video-player')
     },
     
     controller: function() {
-      this.search = () => {
-        this.click();
-      }
+      this.input = '';
+      console.log(this);
+      this.service = {};
+
+
       
-      this.result = () => {
-        
-      }
       
-      this.click = () => {
-        console.log('test ')
-      }
-    }
+    },
+    
+
  
   });

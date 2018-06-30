@@ -3,9 +3,15 @@ angular.module('video-player')
     // TODO
     templateUrl: 'src/templates/videoListEntry.html',
     bindings: {
-      video: '<'
+      video: '<',
+      selectVideo: '<'
     },
     controller: function() {
       // console.log(this);
-    }
+      // this.click = () => {
+      //   console.log("videoListEntry click");
+      // }
+    },
+    
+
   });
